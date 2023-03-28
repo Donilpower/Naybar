@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs;
+    font-size: large;
+}
+
+body .menu_principal{
+    align-items: center;
+    background: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 144px;
+}
+
+body .menu_principal .menu_pages{
+    align-items: center;
+    display: flex;
+    padding: 0px 0px;
+}
+
+body .menu_principal .menu_pages .logo{
+    margin-right: 24px;
+    height: 65px;
+    width: 250px;
+}
+    
+body .menu_principal .menu_pages .logo > img {
+    vertical-align: top;
+}
+
+body .menu_principal .menu_pages .pages{
+    display: flex; 
+}
+
+body .menu_principal .menu_pages .pages p{
+    color: #000000;
+    padding: 0px 50px;
+}
+
+body .menu_principal .menu_pages .botones{
+    display: flex;
+}
+
+body .menu_principal .botones >img{
+    margin-right: 40px;
+    vertical-align:middle;
+    width: 40px;
+    height: 40px;
+}
+
+body .menu_principal .botones .boton1{
+    background: #000000;
+    border: 0px;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 16px 32px;
+    margin-right: 15px;
+}
+
+body .menu_principal .botones .boton1:hover{
+    background: #ffffff;
+    border: 2px solid #e61be6;
+    border-radius: 5px;
+    color: #000000;
+    padding: 14px 30px;
+}
+
+body .menu_principal .botones .boton2{
+    background: #000000;
+    border: 0px;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 16px 32px;
+}
+
+body .menu_principal .botones .boton2:hover{
+    background: #ffffff;
+    border: 2px solid #0fe0e7;
+    border-radius: 5px;
+    color: #000000;
+    padding: 14px 30px;
+    cursor: pointer;
+}
+
+
+
+body .menu_principal_2{
+    background: #292929;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 144px;
+    width:100%;
+}
+
+body .menu_principal_2 .logo_2{
+    height: 52px;
+    width: 250px;
+}
+    
+body .menu_principal_2 .logo_2 > img {
+    vertical-align: top;
+}
+
+body .menu_principal_2 .menu_pages_2{
+    align-items: center;
+    display: flex;
+}
+
+body .menu_principal_2 .menu_pages_2 .pages_2{
+    display: flex;   
+}
+
+body .menu_principal_2 .menu_pages_2 .pages_2 p{
+    color: #ffffff;
+    padding: 10px 50px;
+}
+
+body .menu_principal_2 .menu_pages_2 .boton3{
+    background: #ffffff;
+    border: 0px;
+    border-radius: 5px;
+    color: #000000;
+    padding: 16px 32px;
+}
+
+body .menu_principal_2 .menu_pages_2 .boton3:hover {
+    background: #000000;
+    border: 2px solid #e61be6;
+    border-radius: 5px;
+    color: #e61be6;
+    cursor: pointer;
+    padding: 14px 30px;
+}
+
+ 
+body .menu_principal_3{
+    background: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+body .menu_principal_3 .web_idioma{
+    align-items: top;
+    background: #262626;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 5px 144px;
+}
+
+body .menu_principal_3 .web_idioma .web{
+    display: flex;
+}
+
+body .menu_principal_3 .web_idioma .web >img{ 
+    height: 25px;
+    margin-top: 5px;
+    width: 25px;
+    vertical-align: top;
+}
+
+body .menu_principal_3 .web_idioma .idioma{
+    display: flex;
+}
+
+body .menu_principal_3 .web_idioma .idioma >p{
+    color: #ffffff;
+    margin-top: 3px;
+    padding: 0px 12px;
+}
+
+body .menu_principal_3 .web_idioma .idioma .boton_idioma{
+    background: #ffffff;
+    border: 0px;
+    border-radius: 5px;
+    color: #000000;
+    padding: 3px 6px;
+}
+
+body .menu_principal_3 .web_idioma .idioma .boton_idioma:hover{
+    background: #000000;
+    border: 2px solid #02ccd3;
+    border-radius: 5px;
+    color: #02ccd3;
+    padding: 1px 3px;
+}
+
+body .menu_principal_3 .menu_pages_3{
+    justify-content: space-between;
+    display: flex;
+}
+
+body .menu_principal_3 .menu_pages_3 .logo_3{
+    height: 52px;
+    padding: 16px 144px;
+    width: 250px;
+}
+
+body .menu_principal_3 .menu_pages_3 .logo_3 >img{
+    vertical-align: middle;
+}
+
+body .menu_principal_3 .menu_pages_3 .pages_3{
+    justify-content: left;
+    display: flex;
+    vertical-align:middle;
+    padding: 20px 144px;
+}
+
+body .menu_principal_3 .menu_pages_3 .pages_3 >p{
+    color: #000000;
+    padding: 10px 50px;
+
+}
+
+body .menu_principal_3 .menu_pages_3 .pages_3 >img{
+    margin-left: 40px;
+    vertical-align:middle;
+    width: 40px;
+    height: 40px;
+}
